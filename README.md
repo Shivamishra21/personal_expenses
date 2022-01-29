@@ -1,16 +1,24 @@
-# personal_expenses
+//Many important widget of flutter
+// Widgets for app setup
+// 1. Material App/CupertinoApp
+// 2. Scaffold/CupertinoPageScaffold
+// Widgets for layout
+// 1. Container(have just one child)
+// 2. Row and Column(have more than one child)
+// * Flexible and Expanded : wrap around the child to define how much space it will take in column/rows
+// Content Container:
+// 1. Stack(on top of each other)
+// 2. Card(gives some padding and border )
+// Repeat Element
+// 1. Grid(multiple item setting next to each other)
+// 2. Listview
+// 3. ListTile
+//Content types:
+//1. Text
+//2. Image
+//3. Icons
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+//User Input
+//1. TextField
+//2. Buttons
+//3. Gesture Detector/Inkwell
