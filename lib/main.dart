@@ -16,12 +16,21 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Personal Expenses"),
-      ),
-      body: Center(
-        child: Text("Manage your expenses!!"),
-      ),
-    );
+        appBar: AppBar(
+          title: Text("Personal Expenses"),
+        ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Container(
+                width: double.infinity,
+                child: Card(
+                  child: Text("This is for chartt"),
+                  color: Colors.red,
+                  elevation: 6,
+                )),
+            Card(child: Text("This is for list"), color: Colors.teal)
+          ],
+        ));
   }
 }
